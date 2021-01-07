@@ -1,0 +1,54 @@
+.ishare {
+  box-sizing: border-box;
+  height: 90px;
+  width: fit-content;
+  padding: 8px 5px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245);
+}
+
+.menu-bar {
+  background: rgb(238, 238, 238);
+  padding: 3px 5px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.menu-bar div {
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  margin: 3px 0;
+}
+
+.itot-value {
+  /* width: 70px; */
+  padding: 8px 7px;
+}
+
+.itot-value p {
+  color: rgb(49, 195, 221);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.ishare-details {
+  widows: 140px;
+  padding: 8px 7px;
+}
+
+.ishare-details h4 {
+  text-align: left;
+  color: rgb(86, 138, 86);
+}
+
+.ishare-details .first {
+  font-size: 16px;
+}
+
+.ishare-details .last {
+  font-size: 13px;
+}

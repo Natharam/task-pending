@@ -1,0 +1,21 @@
+.button {
+  box-sizing: border-box;
+  height: 90px;
+  width: fit-content;
+  padding: 8px 5px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 245, 245);
+}
+
+.button button {
+  padding: 5px 14px;
+  margin: 3px;
+  color: rgb(182, 118, 118);
+  border: 2px solid rgb(182, 118, 118);
+  border-radius: 4px;
+  background: white;
+}

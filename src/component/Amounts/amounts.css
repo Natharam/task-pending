@@ -1,0 +1,35 @@
+.amount {
+  height: 90px;
+  display: flex;
+  padding: 8px 5px;
+  margin: 3px;
+  justify-content: center;
+  align-items: left;
+  align-self: center;
+  text-align: left;
+  background: rgb(245, 245, 245);
+}
+
+.amount .keys {
+  padding: 4px 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.amount .keys div {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(165, 165, 165);
+}
+
+.amount .values {
+  padding: 4px 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.amount .values span {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+}

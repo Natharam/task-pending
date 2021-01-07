@@ -1,0 +1,46 @@
+.unrealized {
+  height: 90px;
+  padding: 8px 5px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: left;
+  background: rgb(245, 245, 245);
+}
+
+.unrealized div span {
+  text-align: right;
+  padding: 0 15px;
+}
+
+.unrealized-value {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 3px 5px;
+}
+
+.return {
+  margin: 3px 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  width: 89%;
+  height: 8px;
+  border-radius: 5px;
+  margin: 7px 15px 7px 5px;
+  background: rgb(148, 148, 148);
+}
+
+.unrealized .line div {
+  width: 7%;
+  height: 8px;
+  background: rgb(41, 138, 49);
+}
+

@@ -1,5 +1,6 @@
 import React from "react";
 import './table.css';
+import tableData from "./tableData";
 
 function Table() {
   return (
@@ -15,7 +16,13 @@ function Table() {
           <th>Lastname</th>
           <th>Age</th>
         </tr>
-        
+        <tableData />
+        <tableData />
+        <tableData />
+        <tableData />
+        <tableData />
+        <tableData />
+        <tableData />
       </table>
     </div>
   );
