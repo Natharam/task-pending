@@ -10,7 +10,7 @@ function Amounts() {
         </div>
         <div className="avg-cost">@ Avg. Cost</div>
         <div className="quantity">
-          <i class="fas fa-hand-holding-usd icon"></i> Invested Amt
+          <i className="fas fa-hand-holding-usd icon"></i> Invested Amt
         </div>
       </div>
       <div className="values">

@@ -10,7 +10,7 @@ function MartketValue() {
           <strong>$9542.56</strong>
         </span>
       </div>
-      <div className="portfolio">
+      <div className="portfolio-value">
         % of portfolio value
         <span>
           <strong>40%</strong>

@@ -12,7 +12,7 @@ function Unrealized() {
       </div>
       <div className="return">
         % Return
-        <i class="fas fa-sort-up"></i>
+        <i className="fas fa-sort-up"></i>
         <span>
           <strong>10%</strong>
         </span>

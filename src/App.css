@@ -7,18 +7,29 @@
 
 .App {
   text-align: center;
-  
+}
+
+.uper-part {
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.upper-left {
+  margin: 0 10px;
+  width: 20%;
 }
 
 .sample-data {
   display: flex;
+  width: 80%;
 }
 
 .show-data {
   margin-top: 40px;
-  width: 70%;
+  width: 90%;
   height: auto;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 
 .divide-horizental {
@@ -33,4 +44,24 @@
   width: 18px;
   height: auto;
   background: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 992px) {
+  .uper-part {
+    flex-direction: column;
+  }
+
+  .sample-data {
+    width: 100%;
+  }
+
+  .upper-left {
+    margin: 40px auto;
+    width: 80%;
+    justify-self: center;
+  }
+
+  .sample-data {
+    width: 100%;
+  }
 }
